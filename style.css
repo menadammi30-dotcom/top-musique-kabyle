@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: white;
+}
+
+header {
+  padding: 15px;
+  background: linear-gradient(90deg,#0f9b0f,#f1c40f);
+  text-align: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+input {
+  margin-top: 10px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: #181818;
+}
+
+nav button {
+  background: #282828;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+.song {
+  background: #181818;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.song h3 {
+  margin: 5px 0;
+}
+
+.song p {
+  color: #b3b3b3;
+  margin: 0 0 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
