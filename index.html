@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Top Musique Kabyle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    ⵣ Top Musique Kabyle
+  </div>
+  <input type="text" id="search" placeholder="Rechercher artiste ou chanson">
+</header>
+
+<nav>
+  <button onclick="filtrer('Moderne')">Moderne</button>
+  <button onclick="filtrer('Classique')">Classique</button>
+  <button onclick="filtrer('Folklore')">Folklore</button>
+  <button onclick="filtrer('Tous')">Tous</button>
+</nav>
+
+<main id="music-list"></main>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
